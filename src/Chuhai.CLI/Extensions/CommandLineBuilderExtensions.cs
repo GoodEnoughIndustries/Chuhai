@@ -5,7 +5,7 @@ namespace System.CommandLine.Builder
 {
     public static class CommandLineBuilderExtensions
     {
-        public static CommandLineBuilder UseQuarkCommandLineOptions(this CommandLineBuilder builder)
+        public static CommandLineBuilder UseChuhaiCommandLineOptions(this CommandLineBuilder builder)
             => builder
                 .UseHelp()
                 .UseVersionOption()

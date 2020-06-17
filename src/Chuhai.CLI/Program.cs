@@ -24,7 +24,7 @@ namespace Quark.CLI
             var rootCommand = GetRootCommand();
 
             var parser = new CommandLineBuilder(rootCommand)
-                .UseQuarkCommandLineOptions()
+                .UseChuhaiCommandLineOptions()
                 .UseExceptionHandler(HandleException)
                 .UseHost(CreateHostBuilder, host =>
                 {
